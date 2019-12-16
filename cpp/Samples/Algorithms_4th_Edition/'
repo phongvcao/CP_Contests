@@ -1,0 +1,10 @@
+#include "FixedCapacityStackOfStrings.h"
+#include <stringstream>
+
+int main( int argc, char **argv ) {
+    FixedCapacityStackOfStrings s( 100 );
+
+    std::cout << "My FixedCapacityStackOfStringsTest!!!" << std::endl;
+
+    return 0;
+}
